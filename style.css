@@ -349,6 +349,8 @@ section .topo-do-site .flex{
 /*classe das especialidades*/
 section.especialidades{
     padding:40px 4%;
+    display:flex;
+    align-items: center;
 
 }
 
@@ -487,6 +489,72 @@ section.portfolio .flex{
 .overlay:hover{
     opacity:1;
 }
+
+
+
+
+.container{
+    display: flex;
+        justify-content: center;
+    align-items: center;
+    gap:50px;
+
+}
+
+
+.box{
+    position:relative;
+    width: 300px;
+    height: 200px;
+    background-color: #000508;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+
+}
+.box::before{
+    content:"";
+    position:absolute;
+    width: 100px;
+    height: 200%;
+    background: linear-gradient(180deg,#e60b92,#e70d94);
+    gap:30px;
+    animation: animate 3s linear infinite;
+
+}
+
+@keyframes animate {
+    100%{
+        transform:rotate(360deg);
+    }
+    
+}
+.box::after{
+    content:"";
+    position: absolute;
+    background-color: #000508;
+    inset:5px;
+    border-radius: inherit;
+
+
+    
+}
+.box img {
+    position:relative;
+    z-index: 1;
+    width: 240px;
+}
+
+
+
+
+
+
+
+
 
 /*ESTILO DO FORMULÁRIO CONTATO*/
 section.formulario{
@@ -677,7 +745,7 @@ footer .line-footer p a{
         position: relative;
     }
     
-    
+
     section.portfolio .flex{
         gap: 60px;
     }
@@ -701,7 +769,18 @@ footer .line-footer p a{
      
     }
     
+    .box img {
+        position:relative;
+        z-index: 1;
+        width: 90px;
+    }
     
+    .box{
+        margin:20px;
+        position:relative;
+        width: 450px;
+        height: 100px;
+    }
     
     /*rodapé*/
     .footer .flex{
