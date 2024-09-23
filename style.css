@@ -495,7 +495,7 @@ section.portfolio .flex{
 
 .container{
     display: flex;
-        justify-content: center;
+    justify-content: center;
     align-items: center;
     gap:50px;
 
@@ -768,51 +768,14 @@ footer .line-footer p a{
         transition:.8s ;
      
     }
-      .box {
-        width: 80%; /* Ajuste a largura para telas menores */
-        height: 150px; /* Ajuste a altura para telas menores */
-        border-radius: 30px;
-    }
-
-    .box img {
-        width: 80%; /* Ajuste a largura da imagem */
-    }
-}
-       
     
-    /*rodapé*/
-    .footer .flex{
+    .container{
+        display: flex;
+        justify-content:center;
         flex-direction: column;
-        gap:30px;
-    }
-    
-    
-    
-    footer .line-footer{
-        text-align: center;
-       
+        align-items: center;
+        gap:50px;
+
     }
 
-
-@media (max-width: 768px) {
-    .box {
-        width: 80%; /* Ajuste a largura para telas menores */
-        height: 150px; /* Ajuste a altura para telas menores */
-        border-radius: 20px;
-    }
-
-    .box img {
-        width: 80%; /* Ajuste a largura da imagem */
-    }
-}
-
-@media (max-width: 480px) {
-    .box {
-        width: 90%; /* Ajuste ainda mais para telas pequenas */
-        height: 120px; /* Ajuste a altura */
-    }
-
-    .box img {
-        width: 90%; /* Ajuste a largura da imagem */
-    }
 }
