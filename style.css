@@ -768,19 +768,18 @@ footer .line-footer p a{
         transition:.8s ;
      
     }
-    
+    .box{
+            
+        height: 130px;
+    }       
+
     .box img {
         position:relative;
         z-index: 1;
-        width: 90px;
+        width: 100px;
     }
-    
-    .box{
-        margin:20px;
-        position:relative;
-        width: 450px;
-        height: 100px;
-    }
+
+       
     
     /*rodapé*/
     .footer .flex{
