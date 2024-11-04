@@ -309,6 +309,7 @@ section .topo-do-site .flex{
     align-items: center;
     justify-content: center;
     gap:90px;
+   
 
 }
 
@@ -326,6 +327,8 @@ section .topo-do-site .flex{
 .topo-do-site .txt-topo-site p{
     color:#fff;
     margin:40px 0;
+    text-align: justify;
+
 }
 .topo-do-site .img-topo-site img{
     position: relative;
@@ -395,7 +398,7 @@ section.especialidades .flex{
 
 section.sobre .flex{
     align-items: center;
-    gap:60px;
+    
 }
 
 
@@ -415,8 +418,10 @@ section.sobre .flex{
   }
 
    .sobre .txt-sobre p{
-   margin: 20px 0;
+     margin:20px 0;
    text-align: center;
+   text-align: justify;
+
     
 }
 
