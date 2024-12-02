@@ -357,8 +357,7 @@ section .especialidades{
     display:flex;
     flex-direction:column;
     justify-content: center;
-    padding: 10px 4%;
-    gap:20px;
+    max-width: 100% ;
 }
 
 
@@ -754,9 +753,9 @@ footer .line-footer p a{
     }
     /* especialidades*/
     section.especialidades{
-        padding: 40px 4%;
+        padding: 20px 5%;
         align-items: center;
-        display: flex;
+     
     
     }
     .especialidades .especialidades-box{
