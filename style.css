@@ -246,8 +246,8 @@ section.especialidades{
     flex-direction:column;
     justify-content: center;
     max-width: 100% ;
-    padding: 80px 4%;
-    box-shadow: 0 0 40px 10px #ffffff3d;
+    padding: 60px 4%;
+    box-shadow: 0 0 30px 10px #ffffff3d;
    
 }
 
@@ -262,7 +262,7 @@ section.especialidades .flex{
 .especialidades .especialidades-box{
    color:#fff;
    padding: 10px;
-   width:900px;
+   width:250px;
    border:0,5px solid #fff;
    margin-top: 45px;
    border-radius: 25px;
@@ -480,7 +480,7 @@ section.portfolio .flex{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:90px;
+    gap:30px;
     padding-bottom: 40px;
    
 
@@ -819,11 +819,18 @@ align-items: center;
         margin-top: 45px;
         border-radius: 25px;
         transition: 0.2s;
+        align-items: center;
       }
      
     
       section.especialidades .flex{
-        gap:10px;
+        gap:50px;
+    }
+    .especialidades .especialidades-box{
+        color:#fff;
+        padding: 20px;
+        width:100px;
+        align-items: center;
     }
     
     .especialidades .especialidades-box h3{
@@ -895,7 +902,7 @@ align-items: center;
     
     
     section.portfolio .flex{
-        gap: 80px;
+        gap: 40px;
     }
     
     
