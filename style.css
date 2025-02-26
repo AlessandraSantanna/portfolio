@@ -109,7 +109,7 @@ header nav.menu-desktop  ul li{
 }
 
 .menu-mobile.abrir-menu{
-    width: 70%;
+    width: 50%;
 
 }
 
@@ -241,20 +241,19 @@ section .topo-do-site .btn-contato{
 }
 
 /*classe das especialidades*/
-section.especialidades{
+section .especialidades{
     display:flex;
     flex-direction:column;
     justify-content: center;
-    max-width: 100% ;
-    padding: 60px 4%;
     box-shadow: 0 0 30px 10px #ffffff3d;
-   
+    padding: 40px 40px 10%;
+  
 }
 
 
 section.especialidades .flex{
     align-items: center;
-    gap:20px;
+    gap:20px;    padding:  30px;
   
 }
 
@@ -262,7 +261,7 @@ section.especialidades .flex{
 .especialidades .especialidades-box{
    color:#fff;
    padding: 10px;
-   width:250px;
+   width:350px;
    border:0,5px solid #fff;
    margin-top: 45px;
    border-radius: 25px;
@@ -535,12 +534,6 @@ section.portfolio .flex{
 
 
 
-
-
-
-
-
-
 /*ESTILO DO FORMULÁRIO CONTATO*/
 section.formulario{
     padding: 80px 4%;
@@ -760,13 +753,17 @@ align-items: center;
         border-radius: 20px;
         padding:20px 40px 40px;
         border-top: 100px solid #fff;
+        
          
-      } 
+      }
+      
+      /* MENU MOBILE*/
+
+        .menu-mobile{
+        display: flex;
+        }
+      
 }
-
-
-
-
 @media screen and (max-width:992px){
 
     /*cabeçalho*/
@@ -806,7 +803,7 @@ align-items: center;
     }
     /* especialidades*/
     section.especialidades{
-        padding: 20px 5%;
+        padding: 20px 20px 10%;
         align-items: center;
      
     
@@ -824,7 +821,7 @@ align-items: center;
      
     
       section.especialidades .flex{
-        gap:50px;
+        gap:15px;
     }
     .especialidades .especialidades-box{
         color:#fff;
@@ -840,8 +837,9 @@ align-items: center;
 
     .especialidades .especialidades-box p{
         display: none;
-}
-.especialidades .especialidades-box i{
+    }
+
+    .especialidades .especialidades-box i{
     font-size: 30px;
     margin: 15px 0;
     }
@@ -933,10 +931,11 @@ align-items: center;
         gap:50px;
 
     }
+}
 
-}
-@media screen  and(max-width:  350px){
-    .service .wrapper{
-        grid-template-columns: (repeat(auto-fit,minmax(200px, 1fr)));
+    @media screen  and(max-width:  350px){
+        .service .wrapper{
+            grid-template-columns: (repeat(auto-fit,minmax(200px, 1fr)));
+        }
+        
     }
-}
